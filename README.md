@@ -25,10 +25,10 @@ Run: put the raw 1-minute parquet at `data/latest_df_backup.parquet`, then `pyth
 
 ## Results (1 tick per leg; % of bean notional, USD per 5,000 bu hedged)
 
-| Sample | Trades | Hit rate | Net / trade | Return | Max DD | Sharpe | USD |
+| Sample | Trades | Hit rate | Net / trade | Return | Max DD | Sharpe |
 |---|---|---|---|---|---|---|---|
-| Development, Jan 2021 - Nov 2024 | 191 | 79% | 0.84 c | +11.5% | -2.8% | 1.57 | +$7,981 |
-| Holdout, Dec 2024 - Dec 2025 (run once) | 36 | 69% | 0.06 c | +0.1% | -2.5% | 0.07 | +$107 |
+| Development, Jan 2021 - Nov 2024 | 191 | 79% | 0.84 c | +11.5% | -2.8% | 1.57 |
+| Holdout, Dec 2024 - Dec 2025 (run once) | 36 | 69% | 0.06 c | +0.1% | -2.5% | 0.07 |
 
 ![Equity and drawdown](src/crush_strategy/output/equity_drawdown.png)
 
