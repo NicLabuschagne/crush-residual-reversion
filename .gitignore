@@ -1,0 +1,9 @@
+.venv/
+.idea/
+.junie/
+__pycache__/
+__marimo__/
+# raw market data is not redistributed
+*.parquet
+data/
+src/crush_strategy/output/trades.csv
